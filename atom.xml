@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>BobWong</title>
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://bobwong.me/"/>
   <updated>2017-08-14T06:37:43.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://bobwong.me/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Fengbo.Wang</name>
     
   </author>
   
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2017/08/14/hello-world/"/>
-    <id>http://yoursite.com/2017/08/14/hello-world/</id>
+    <link href="http://bobwong.me/2017/08/14/hello-world/"/>
+    <id>http://bobwong.me/2017/08/14/hello-world/</id>
     <published>2017-08-14T06:37:43.000Z</published>
     <updated>2017-08-14T06:37:43.000Z</updated>
     
