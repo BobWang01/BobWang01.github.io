@@ -108,7 +108,7 @@
             <li class="waves-block waves-effect">
               <a href="/custom"  >
                 <i class="icon icon-lg icon-link"></i>
-                bobwong.me
+                BobWong.me
               </a>
             </li>
         
@@ -270,7 +270,7 @@
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://bobwong.me/archives/" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAAByklEQVR42u3aS27DMAwFQN//0uoBAruPZCQYwWhVNL9JFgTJp+uKz/o4z8/J3/PacXBxccfc9XgSygrO89dOXouLi3ue+1xoPp+TsKo/R1TscHFxX8ld8Xl+N1xc3N/j9lqfvFDi4uK+gdtrQfIFx7wNwsXFPcmtLjd3/L1lv4uLi9viruJJgpOkAVqtg4uLe4bba1DyoCVpYqqNES4u7nnutyKTyTWLQsiKi4u7gdtbYlZLVa9tuu3IcHFxN3OrpaRa1HqRanVdi4uLe4abByGTNcpk+YKLi7uPmwwqkyCkF5fefgouLu4RbjLA5KFIj1L9Dy4u7klu0qwkhWnSBkXDEi4u7mZuvryoLjKSYKZc2nBxcY9wkzalF4FcXzq3ww8uLu5BbvKR1Yi0V8LKww8uLu4Gbn4xq7ro7L022vLi4uJu5iajS94ATS5PFO6G4OLibuCu4ilEoXFkWxiZcHFxj3CrxWVSpCZfeHSPDBcXt8XttSl5yNorZLe/Ky4u7kFub81RjVjygar8MC4u7mu4eUmaDF23+11cXNzXc/MAJo9V/kl+cHFxN3OrlyfyYKY3UEUhKy4u7jbuZN05Wankl7dwcXEPcv8AOoQBL17W04MAAAAASUVORK5CYII=" alt="微信分享二维码">
 </div>
 
 
@@ -319,10 +319,10 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
     var OriginTitile = document.title, titleTime;
     document.addEventListener('visibilitychange', function() {
         if (document.hidden) {
-            document.title = '死鬼去哪里了！';
+            document.title = 'Thanks for you visting:-]';
             clearTimeout(titleTime);
         } else {
-            document.title = '(つェ⊂)咦!又好了!';
+            document.title = 'Welcome';
             titleTime = setTimeout(function() {
                 document.title = OriginTitile;
             },2000);

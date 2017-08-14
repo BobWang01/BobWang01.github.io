@@ -108,7 +108,7 @@
             <li class="waves-block waves-effect">
               <a href="/custom"  >
                 <i class="icon icon-lg icon-link"></i>
-                bobwong.me
+                BobWong.me
               </a>
             </li>
         
@@ -283,7 +283,7 @@ Qu...
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://bobwong.me/" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAAAAAAZai4+AAABT0lEQVR42u3aQQ7DIAwF0dz/0um2UhVnvkkWxcOqUhN4WQDG+DhwO78af5K/1WyyZG3EOst29cxvD3X/fCxZsiazSHc1Me3nxiBLlqyQRZYVWbJkPcuqw+iaIkuWrJpFpnrvgPp6LC9L1hYsntVZ//1KfkuWrD9nnWHrbcbxKLJkDWPxCUw2V54CRpc3smSNYa1cqKSp3iApLEuWLLDp8oUjPdwGncqStRGLDJ/i6oWj/iRZsiazel33ErVxgkmWLFkg2K2D6QeSv7JkjWGtHzj59QnZ+GXJkpVuwCSAbn6YLFkjWSuVAL3CghucLFljWM1SgNb1ZxBky5I1jNWri+MXLa/XCcqStRErDY75cZcsEJf/ypI1kkWC2nRp6AXQsmTJSssO1o+siVSWLFnZsXNla5clazKLBM28tC6d77JkyWoGtSCwfjGzJUvWPqwPnzvkXC+1t+cAAAAASUVORK5CYII=" alt="微信分享二维码">
 </div>
 
 
@@ -332,10 +332,10 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
     var OriginTitile = document.title, titleTime;
     document.addEventListener('visibilitychange', function() {
         if (document.hidden) {
-            document.title = '死鬼去哪里了！';
+            document.title = 'Thanks for you visting:-]';
             clearTimeout(titleTime);
         } else {
-            document.title = '(つェ⊂)咦!又好了!';
+            document.title = 'Welcome';
             titleTime = setTimeout(function() {
                 document.title = OriginTitile;
             },2000);
